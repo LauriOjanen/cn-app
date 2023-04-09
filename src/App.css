@@ -1,0 +1,39 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  background-color: blueviolet;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #98c1d9, #98d9a6);
+}
+
+body {
+  background: linear-gradient(to bottom, #98c1d9, #98d9a6);
+  font-family: 'Amatic SC', cursive;
+}
+
