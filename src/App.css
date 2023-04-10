@@ -31,11 +31,28 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, #98c1d9, #98d9a6);
 }
 
-body {
-  background: linear-gradient(to bottom, #98c1d9, #98d9a6);
-  font-family: 'Amatic SC', cursive;
+.joke {
+  margin-bottom: 100px;
 }
 
+.new-joke-button {
+  margin-bottom: 50px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.yes-button {
+  background-color: #47BEB9;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.no-button {
+  background-color: #F34F4F;
+  color: #fff;
+}
