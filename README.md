@@ -1,2 +1,2 @@
 # cn-app
- Making joke app with API
+ Making joke app in React and Vite with API.
