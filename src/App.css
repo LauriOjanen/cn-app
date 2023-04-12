@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient(to bottom right, #ff9966, #ff5e62);;
+}
+
 .center {
   display: flex;
   flex-direction: column;
@@ -7,7 +11,7 @@
 }
 
 button {
-  background-color: #ff6b6b; 
+  background-color: #f6b7b7; 
   font-size: 1.2rem;
   padding: 10px 20px;
   border-radius: 5px;
@@ -24,7 +28,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #ff9966;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   padding: 1em;
   z-index: 1;
