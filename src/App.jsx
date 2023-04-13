@@ -37,7 +37,10 @@ function App() {
 
           <button className="new-joke-button" onClick={handleClick}>New Joke</button>
 
+          <p>Did you like joke?</p>
+
           <div className="button-container">
+            
             <button className="yes-button" onClick={handleYesClick}>Yes ({yesCount})</button>
             <button className="no-button" onClick={handleNoClick}>No ({noCount})</button>
           </div>
